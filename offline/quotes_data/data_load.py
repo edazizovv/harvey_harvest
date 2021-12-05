@@ -91,3 +91,5 @@ data_jpy_ = data_jpy_.drop_duplicates()
 data_all = pandas.concat((data_crypto, data_eur_, data_jpy_), axis=1)
 data_all = data_all.fillna(method='ffill')
 data_all = data_all.dropna()
+
+# data_all.to_csv('../dataset.csv')

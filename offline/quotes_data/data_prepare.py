@@ -39,7 +39,7 @@ data_grouped['Timestamp'] = data_grouped.apply(func=lambda x: datetime.date(int(
 data_grouped = data_grouped.drop(columns=['year', 'month', 'day'])
 data_grouped = data_grouped.set_index('Timestamp')
 
-data_grouped.to_csv('./dataset_grouped.csv')
+data_grouped.to_csv('../dataset_grouped.csv')
 """
 
 # BOSS OF THE CLASSY
@@ -52,7 +52,7 @@ def q(n):
     return q_
 
 
-d = './dataset.csv'
+d = '../dataset.csv'
 data = pandas.read_csv(d)
 data['Timestamp'] = pandas.to_datetime(data['Timestamp'])
 data['Timestamp'] = data['Timestamp'] + pandas.tseries.offsets.DateOffset(hours=18)
@@ -82,5 +82,5 @@ for target in targets:
 
 data = data.drop(columns=['year', 'month', 'day'])
 
-data.to_csv('./dataset_classified.csv')
+data.to_csv('../dataset_classified.csv')
 """
