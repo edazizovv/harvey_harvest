@@ -1,8 +1,23 @@
-# Summary
-* ServiceLine
-* Class: modelling
+# harvey_harvest
 
-This repo contains data and loading scripts for Harvey.
+<a target="_blank" href="https://cookiecutter-data-science.drivendata.org/">
+    <img src="https://img.shields.io/badge/CCDS-Project%20template-328F97?logo=cookiecutter" />
+</a>
 
-## Runs:
-* ...
+A set of data loading scripts
+
+## STATUS:
+
+On hold
+
+## MIRO
+
+<a target="_blank" href="enter miro link">
+    Miro
+</a>
+
+## AZURE
+
+<a target="_blank" href="enter azure link">
+    Azure
+</a>
